@@ -41,7 +41,6 @@ class ExampleService {
     }
 
     testApi () {
-        $log("ExampleService");
         return this.http({
                 method: "GET",
                 url: "http://localhost:9090/api/i18n?lang=pt"
